@@ -1,13 +1,17 @@
 #!/usr/bin/python3
-"""Defines the Amenity class."""
+"""Definition of the class"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Represent an amenity.
+    """
+    Name of the Amenity
 
-    Attributes:
-        name (str): The name of the amenity.
+    Args:
+        BaseModel (class): Foundation of the project
+
+    Attribute:
+        name (str): Public class attribute for Amenity's name
     """
 
     name = ""
